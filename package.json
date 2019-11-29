@@ -1,16 +1,16 @@
 {
-  "name": "@bnb/card",
-  "version": "1.6.0",
-  "description": "A personal card for Tierney Cyren (@bitandbang)",
+  "name": "kilianvalkhof",
+  "version": "1.0.0",
+  "description": "A personal card for Kilian Valkhof (@kilianvalkhof)",
   "main": "/bin/card.js",
   "bin": {
-    "bitandbang": "./bin/card.js"
+    "kilianvalkhof": "./bin/card.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bnb/bitandbang.git"
+    "url": "git+https://github.com/kilian/businesscard.git"
   },
-  "homepage": "https://bnb.im",
+  "homepage": "https://kilianvalkhof.com",
   "scripts": {
     "prepublish": "npm run build",
     "build": "node build.js",
@@ -26,7 +26,7 @@
     "npx card",
     "business card"
   ],
-  "author": "Tierney Cyren <hello@bnb.im> (http://bnb.im)",
+  "author": "Kilian Valkhof <kilian@kilianvalkhof.com> (http://kilianvalkhof.com)",
   "license": "MIT",
   "files": [
     "bin/card.js",
@@ -38,10 +38,7 @@
     "standard": "^12.0.1"
   },
   "bugs": {
-    "url": "https://github.com/bnb/bitandbang/issues"
+    "url": "https://github.com/kilian/businesscard/issues"
   },
-  "dependencies": {},
-  "publishConfig": {
-    "registry": "https://npm.registry.github.com/"
-  }
+  "dependencies": {}
 }
